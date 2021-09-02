@@ -34,4 +34,4 @@ def weather():
         return render_template('city.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
